@@ -1,0 +1,19 @@
+[package]
+name        = "libdeflate-zran"
+version     = "0.1.0"
+edition     = "2024"
+license     = "MIT"
+description = "Safe Rust wrapper around libdeflate with zran-style resume and walk for random access into gzip / DEFLATE streams."
+repository  = "https://github.com/maxsimov/libdeflate-zran"
+authors     = ["Andrey Maximov <andrey@maxsimov.com>"]
+keywords    = ["compression", "gzip", "deflate", "libdeflate", "zran"]
+categories  = ["compression"]
+readme      = "README.md"
+
+[dependencies]
+libdeflate-zran-sys = { path = "../libdeflate-zran-sys" }
+# After both crates are published to crates.io:
+# libdeflate-zran-sys = "0.1"
+
+[dev-dependencies]
+libdeflate-zran-sys = { path = "../libdeflate-zran-sys" }

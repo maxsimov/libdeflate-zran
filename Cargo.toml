@@ -11,9 +11,7 @@ categories  = ["compression"]
 readme      = "README.md"
 
 [dependencies]
-libdeflate-zran-sys = { path = "../libdeflate-zran-sys" }
-# After both crates are published to crates.io:
-# libdeflate-zran-sys = "0.1"
+libdeflate-zran-sys = "0.1"
 
 [dev-dependencies]
-libdeflate-zran-sys = { path = "../libdeflate-zran-sys" }
+libdeflate-zran-sys = "0.1"
